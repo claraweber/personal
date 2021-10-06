@@ -66,15 +66,10 @@ background-color: white;
 }
 
 .button{
-  text-align: center;
-  align-items: center;
-  display: inline-block; 
-  position: inherit;
   font-family: 'Raleway', sans-serif;
   border: none;
   color: black;
   height:40px;
-  display: inline-flex;
   width: 33%;
   font-size: 15px;
   padding:15px;

@@ -67,7 +67,7 @@ background-color: white;
 
 .button{
   text-align: center;
-  align-items:center;
+  align-items: center;
   font-family: 'Raleway', sans-serif;
   border: none;
   color: black;
@@ -76,7 +76,6 @@ background-color: white;
   width: 33%;
   font-size: 15px;
   padding:15px;
-  text-align: center;
   background-color: white;
 }
 

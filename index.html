@@ -18,9 +18,9 @@
       <p style="margin-left:10%"> MD candidate <br> medicine and computer science student <br> brain enthusiast <br> amateur web development</p>
     </header>
     <div class="row">
-      <button id="websites" class="button" onclick="submit()"> <b>W E B S I T E S</b></button>
-      <button id="research" class="button" onclick="closeForm()"><b>R E S E A R C H</b></button>
-      <button id="cvbutton" class="button" onclick="submit()"><b>C O N T A C T</b></button>
+      <button id="websites" class="button" onclick="scroll(400)"> <b>W E B S I T E S</b></button>
+      <button id="research" class="button" onclick="scroll(700)"><b>R E S E A R C H</b></button>
+      <button id="cvbutton" class="button" onclick="scroll(1100)"><b>C O N T A C T</b></button>
     </div>
     <div class="section" style="height: 300px">
       <div class="container">
@@ -34,6 +34,11 @@
             <a href="https://thisisclarassecondaccount.github.io/mandelbrot">mandelbrot set</a><br>sample website diplaying a randomly colored fractal<br>
             <a href="https://breastimplantcalculator.com">breast implant volume calculator</a><br>application to calculate implant volume based on ct-derived measurements<br>
           </p>
+          <script type="text/javascript">
+          function scroll (in) {
+            window.scrollTo(in, 0)
+          }
+          </script>
         </div>
         </div>
       </div>

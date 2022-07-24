@@ -4,26 +4,27 @@
   box-sizing: border-box; 
 }
 
-header {
-background-image: url('img1.png'); background-repeat: no-repeat; background-size: 100%;
-display: flex;
-flex-direction: column;
-position: inherit;
-color: black;
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
 h1{
-  font-family: 'Raleway';
+  /*font-family: 'Raleway';*/
   font-size: 60px;
   color: black;
   padding-left: 5%;
   padding-top: 10%;
+  font-family: 'Questrial', sans-serif;
 }
 
 h2{
-  font-family: 'Raleway', sans-serif;
   font-size: 30px;
-  color: white;
+  font-family: 'Questrial', sans-serif;
+}
+
+h3{
+  font-size: 24px;
+  font-family: 'Questrial', sans-serif;
 }
 
 footer {
@@ -33,27 +34,22 @@ font-style: normal;
 height: 80px;
 }
 
-.bulletpoint{
-  padding: 1%;
-  style="border-top: 2px solid #FFDC8C;
-}
 
 p {
   vertical-align: middle;
   justify-content: center;
   font-family: 'Questrial', sans-serif;
-  color: white;
+  color: black;
 }
 
 a {
-  font-family: 'Raleway', sans-serif;
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 a:hover {
   text-decoration: none;
-  color: #FFDC8C;
+  color: linear-gradient(135deg, #667eea 0%, #764ba2 100%);;
 }
 
 .section{
@@ -61,21 +57,20 @@ a:hover {
   flex-direction: column;
   position: inherit;
   padding: 2%;
+  border-top: 2px #0000B8;
 }
 
 body {
     background-color: #081127
+    margin:  5%;
 }
 
 .button{
   font-family: 'Raleway', sans-serif;
   border: none;
   color: black;
-  height:40px;
-  width: 33%;
   font-size: 15px;
   padding:15px;
-  background-color: white;
 }
 
 .button:hover{
